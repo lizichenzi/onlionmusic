@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A109F81E6409AF009306D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A109F71E6409AF009306D7 /* main.m */; };
+		00A109FB1E6409AF009306D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A109FA1E6409AF009306D7 /* AppDelegate.m */; };
+		00A109FE1E6409AF009306D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A109FD1E6409AF009306D7 /* ViewController.m */; };
+		00A10A011E6409AF009306D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A109FF1E6409AF009306D7 /* Main.storyboard */; };
+		00A10A031E6409AF009306D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A10A021E6409AF009306D7 /* Assets.xcassets */; };
+		00A10A061E6409AF009306D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A10A041E6409AF009306D7 /* LaunchScreen.storyboard */; };
+		00A10A111E6409AF009306D7 /* OnlineMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A101E6409AF009306D7 /* OnlineMusicTests.m */; };
+		00A10A1C1E6409AF009306D7 /* OnlineMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A1B1E6409AF009306D7 /* OnlineMusicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A10A0D1E6409AF009306D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A109EB1E6409AF009306D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A109F21E6409AF009306D7;
+			remoteInfo = OnlineMusic;
+		};
+		00A10A181E6409AF009306D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A109EB1E6409AF009306D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A109F21E6409AF009306D7;
+			remoteInfo = OnlineMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A109F31E6409AF009306D7 /* OnlineMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A109F71E6409AF009306D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A109F91E6409AF009306D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00A109FA1E6409AF009306D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00A109FC1E6409AF009306D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00A109FD1E6409AF009306D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00A10A001E6409AF009306D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A10A021E6409AF009306D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A10A051E6409AF009306D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A10A071E6409AF009306D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A10A0C1E6409AF009306D7 /* OnlineMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A10A101E6409AF009306D7 /* OnlineMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineMusicTests.m; sourceTree = "<group>"; };
+		00A10A121E6409AF009306D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A10A171E6409AF009306D7 /* OnlineMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A10A1B1E6409AF009306D7 /* OnlineMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineMusicUITests.m; sourceTree = "<group>"; };
+		00A10A1D1E6409AF009306D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A109F01E6409AF009306D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A10A091E6409AF009306D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A10A141E6409AF009306D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A109EA1E6409AF009306D7 = {
+			isa = PBXGroup;
+			children = (
+				00A109F51E6409AF009306D7 /* OnlineMusic */,
+				00A10A0F1E6409AF009306D7 /* OnlineMusicTests */,
+				00A10A1A1E6409AF009306D7 /* OnlineMusicUITests */,
+				00A109F41E6409AF009306D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A109F41E6409AF009306D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A109F31E6409AF009306D7 /* OnlineMusic.app */,
+				00A10A0C1E6409AF009306D7 /* OnlineMusicTests.xctest */,
+				00A10A171E6409AF009306D7 /* OnlineMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A109F51E6409AF009306D7 /* OnlineMusic */ = {
+			isa = PBXGroup;
+			children = (
+				00A109F91E6409AF009306D7 /* AppDelegate.h */,
+				00A109FA1E6409AF009306D7 /* AppDelegate.m */,
+				00A109FC1E6409AF009306D7 /* ViewController.h */,
+				00A109FD1E6409AF009306D7 /* ViewController.m */,
+				00A109FF1E6409AF009306D7 /* Main.storyboard */,
+				00A10A021E6409AF009306D7 /* Assets.xcassets */,
+				00A10A041E6409AF009306D7 /* LaunchScreen.storyboard */,
+				00A10A071E6409AF009306D7 /* Info.plist */,
+				00A109F61E6409AF009306D7 /* Supporting Files */,
+			);
+			path = OnlineMusic;
+			sourceTree = "<group>";
+		};
+		00A109F61E6409AF009306D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A109F71E6409AF009306D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A10A0F1E6409AF009306D7 /* OnlineMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A10A101E6409AF009306D7 /* OnlineMusicTests.m */,
+				00A10A121E6409AF009306D7 /* Info.plist */,
+			);
+			path = OnlineMusicTests;
+			sourceTree = "<group>";
+		};
+		00A10A1A1E6409AF009306D7 /* OnlineMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00A10A1B1E6409AF009306D7 /* OnlineMusicUITests.m */,
+				00A10A1D1E6409AF009306D7 /* Info.plist */,
+			);
+			path = OnlineMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A109F21E6409AF009306D7 /* OnlineMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A10A201E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusic" */;
+			buildPhases = (
+				00A109EF1E6409AF009306D7 /* Sources */,
+				00A109F01E6409AF009306D7 /* Frameworks */,
+				00A109F11E6409AF009306D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineMusic;
+			productName = OnlineMusic;
+			productReference = 00A109F31E6409AF009306D7 /* OnlineMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A10A0B1E6409AF009306D7 /* OnlineMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A10A231E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusicTests" */;
+			buildPhases = (
+				00A10A081E6409AF009306D7 /* Sources */,
+				00A10A091E6409AF009306D7 /* Frameworks */,
+				00A10A0A1E6409AF009306D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A10A0E1E6409AF009306D7 /* PBXTargetDependency */,
+			);
+			name = OnlineMusicTests;
+			productName = OnlineMusicTests;
+			productReference = 00A10A0C1E6409AF009306D7 /* OnlineMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00A10A161E6409AF009306D7 /* OnlineMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A10A261E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusicUITests" */;
+			buildPhases = (
+				00A10A131E6409AF009306D7 /* Sources */,
+				00A10A141E6409AF009306D7 /* Frameworks */,
+				00A10A151E6409AF009306D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A10A191E6409AF009306D7 /* PBXTargetDependency */,
+			);
+			name = OnlineMusicUITests;
+			productName = OnlineMusicUITests;
+			productReference = 00A10A171E6409AF009306D7 /* OnlineMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A109EB1E6409AF009306D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "李雀";
+				TargetAttributes = {
+					00A109F21E6409AF009306D7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					00A10A0B1E6409AF009306D7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00A109F21E6409AF009306D7;
+					};
+					00A10A161E6409AF009306D7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00A109F21E6409AF009306D7;
+					};
+				};
+			};
+			buildConfigurationList = 00A109EE1E6409AF009306D7 /* Build configuration list for PBXProject "OnlineMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A109EA1E6409AF009306D7;
+			productRefGroup = 00A109F41E6409AF009306D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A109F21E6409AF009306D7 /* OnlineMusic */,
+				00A10A0B1E6409AF009306D7 /* OnlineMusicTests */,
+				00A10A161E6409AF009306D7 /* OnlineMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A109F11E6409AF009306D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A10A061E6409AF009306D7 /* LaunchScreen.storyboard in Resources */,
+				00A10A031E6409AF009306D7 /* Assets.xcassets in Resources */,
+				00A10A011E6409AF009306D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A10A0A1E6409AF009306D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A10A151E6409AF009306D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A109EF1E6409AF009306D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A109FE1E6409AF009306D7 /* ViewController.m in Sources */,
+				00A109FB1E6409AF009306D7 /* AppDelegate.m in Sources */,
+				00A109F81E6409AF009306D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A10A081E6409AF009306D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A10A111E6409AF009306D7 /* OnlineMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A10A131E6409AF009306D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A10A1C1E6409AF009306D7 /* OnlineMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A10A0E1E6409AF009306D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A109F21E6409AF009306D7 /* OnlineMusic */;
+			targetProxy = 00A10A0D1E6409AF009306D7 /* PBXContainerItemProxy */;
+		};
+		00A10A191E6409AF009306D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A109F21E6409AF009306D7 /* OnlineMusic */;
+			targetProxy = 00A10A181E6409AF009306D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A109FF1E6409AF009306D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A10A001E6409AF009306D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A10A041E6409AF009306D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A10A051E6409AF009306D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A10A1E1E6409AF009306D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A10A1F1E6409AF009306D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A10A211E6409AF009306D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnlineMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.OnlineMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A10A221E6409AF009306D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnlineMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.OnlineMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A10A241E6409AF009306D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnlineMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.OnlineMusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineMusic.app/OnlineMusic";
+			};
+			name = Debug;
+		};
+		00A10A251E6409AF009306D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnlineMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.OnlineMusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineMusic.app/OnlineMusic";
+			};
+			name = Release;
+		};
+		00A10A271E6409AF009306D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnlineMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.OnlineMusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnlineMusic;
+			};
+			name = Debug;
+		};
+		00A10A281E6409AF009306D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnlineMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.OnlineMusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnlineMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A109EE1E6409AF009306D7 /* Build configuration list for PBXProject "OnlineMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A10A1E1E6409AF009306D7 /* Debug */,
+				00A10A1F1E6409AF009306D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A10A201E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A10A211E6409AF009306D7 /* Debug */,
+				00A10A221E6409AF009306D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00A10A231E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A10A241E6409AF009306D7 /* Debug */,
+				00A10A251E6409AF009306D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00A10A261E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A10A271E6409AF009306D7 /* Debug */,
+				00A10A281E6409AF009306D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A109EB1E6409AF009306D7 /* Project object */;
+}
