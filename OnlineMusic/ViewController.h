@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class MusicListView;
+@protocol MusicDelegate;
+
+
+
+
+@interface ViewController : UIViewController <MusicDelegate>
 
 
 @end

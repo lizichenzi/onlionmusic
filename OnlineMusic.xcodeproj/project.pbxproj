@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001575131E8F647B000AAA61 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 001575121E8F647B000AAA61 /* Helper.m */; };
+		001575151E8F67F4000AAA61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001575141E8F67F4000AAA61 /* AVFoundation.framework */; };
+		0039226C1E65321600837F72 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039226B1E65321600837F72 /* MusicModel.m */; };
+		0039226F1E65327D00837F72 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039226E1E65327D00837F72 /* BaseModel.m */; };
 		00A109F81E6409AF009306D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A109F71E6409AF009306D7 /* main.m */; };
 		00A109FB1E6409AF009306D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A109FA1E6409AF009306D7 /* AppDelegate.m */; };
 		00A109FE1E6409AF009306D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A109FD1E6409AF009306D7 /* ViewController.m */; };
@@ -15,6 +19,14 @@
 		00A10A061E6409AF009306D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A10A041E6409AF009306D7 /* LaunchScreen.storyboard */; };
 		00A10A111E6409AF009306D7 /* OnlineMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A101E6409AF009306D7 /* OnlineMusicTests.m */; };
 		00A10A1C1E6409AF009306D7 /* OnlineMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A1B1E6409AF009306D7 /* OnlineMusicUITests.m */; };
+		00A10A301E641004009306D7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A10A2F1E641004009306D7 /* Icon.png */; };
+		00A10A371E643CF4009306D7 /* MusicListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A361E643CF4009306D7 /* MusicListView.m */; };
+		00A10A391E643D95009306D7 /* MusicListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A10A381E643D95009306D7 /* MusicListView.xib */; };
+		00A10A3D1E645396009306D7 /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A3B1E645396009306D7 /* MusicCell.m */; };
+		00A10A3E1E645396009306D7 /* MusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A10A3C1E645396009306D7 /* MusicCell.xib */; };
+		00A10A411E6461FB009306D7 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A10A401E6461FB009306D7 /* Downloader.m */; };
+		00E7B94C1E66A08C002D5E39 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 00E7B94B1E66A08C002D5E39 /* Podfile */; };
+		DD2C68AB0968BB4131701869 /* libPods-OnlineMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEDF3AFE524489301305767 /* libPods-OnlineMusic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001575111E8F647B000AAA61 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		001575121E8F647B000AAA61 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		001575141E8F67F4000AAA61 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0039226A1E65321600837F72 /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		0039226B1E65321600837F72 /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		0039226D1E65327D00837F72 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		0039226E1E65327D00837F72 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		00A109F31E6409AF009306D7 /* OnlineMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A109F71E6409AF009306D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00A109F91E6409AF009306D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,19 @@
 		00A10A171E6409AF009306D7 /* OnlineMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A10A1B1E6409AF009306D7 /* OnlineMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineMusicUITests.m; sourceTree = "<group>"; };
 		00A10A1D1E6409AF009306D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A10A2F1E641004009306D7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		00A10A351E643CF4009306D7 /* MusicListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListView.h; sourceTree = "<group>"; };
+		00A10A361E643CF4009306D7 /* MusicListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListView.m; sourceTree = "<group>"; };
+		00A10A381E643D95009306D7 /* MusicListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicListView.xib; sourceTree = "<group>"; };
+		00A10A3A1E645396009306D7 /* MusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCell.h; sourceTree = "<group>"; };
+		00A10A3B1E645396009306D7 /* MusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCell.m; sourceTree = "<group>"; };
+		00A10A3C1E645396009306D7 /* MusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicCell.xib; sourceTree = "<group>"; };
+		00A10A3F1E6461FB009306D7 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		00A10A401E6461FB009306D7 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		00E7B94B1E66A08C002D5E39 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8AEADD38A9C273B66C50FD89 /* Pods-OnlineMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineMusic/Pods-OnlineMusic.release.xcconfig"; sourceTree = "<group>"; };
+		AFEDF3AFE524489301305767 /* libPods-OnlineMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnlineMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6DAC817FB111B8EF26F719 /* Pods-OnlineMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineMusic/Pods-OnlineMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001575151E8F67F4000AAA61 /* AVFoundation.framework in Frameworks */,
+				DD2C68AB0968BB4131701869 /* libPods-OnlineMusic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +119,8 @@
 				00A10A0F1E6409AF009306D7 /* OnlineMusicTests */,
 				00A10A1A1E6409AF009306D7 /* OnlineMusicUITests */,
 				00A109F41E6409AF009306D7 /* Products */,
+				4BF3A7FBB178589330401DEF /* Pods */,
+				D1451768399B2206F1416003 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +139,14 @@
 			children = (
 				00A109F91E6409AF009306D7 /* AppDelegate.h */,
 				00A109FA1E6409AF009306D7 /* AppDelegate.m */,
+				00A109FF1E6409AF009306D7 /* Main.storyboard */,
+				00A10A341E643CA7009306D7 /* Utils */,
+				00A10A331E643C63009306D7 /* Controllers */,
 				00A109FC1E6409AF009306D7 /* ViewController.h */,
 				00A109FD1E6409AF009306D7 /* ViewController.m */,
-				00A109FF1E6409AF009306D7 /* Main.storyboard */,
+				00A10A321E643C54009306D7 /* Views */,
+				00A10A311E643C1D009306D7 /* Models */,
 				00A10A021E6409AF009306D7 /* Assets.xcassets */,
-				00A10A041E6409AF009306D7 /* LaunchScreen.storyboard */,
-				00A10A071E6409AF009306D7 /* Info.plist */,
 				00A109F61E6409AF009306D7 /* Supporting Files */,
 			);
 			path = OnlineMusic;
@@ -117,7 +155,11 @@
 		00A109F61E6409AF009306D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00A10A071E6409AF009306D7 /* Info.plist */,
+				00A10A2F1E641004009306D7 /* Icon.png */,
 				00A109F71E6409AF009306D7 /* main.m */,
+				00A10A041E6409AF009306D7 /* LaunchScreen.storyboard */,
+				00E7B94B1E66A08C002D5E39 /* Podfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +182,66 @@
 			path = OnlineMusicUITests;
 			sourceTree = "<group>";
 		};
+		00A10A311E643C1D009306D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0039226A1E65321600837F72 /* MusicModel.h */,
+				0039226B1E65321600837F72 /* MusicModel.m */,
+				0039226D1E65327D00837F72 /* BaseModel.h */,
+				0039226E1E65327D00837F72 /* BaseModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		00A10A321E643C54009306D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00A10A3A1E645396009306D7 /* MusicCell.h */,
+				00A10A3B1E645396009306D7 /* MusicCell.m */,
+				00A10A3C1E645396009306D7 /* MusicCell.xib */,
+				00A10A351E643CF4009306D7 /* MusicListView.h */,
+				00A10A361E643CF4009306D7 /* MusicListView.m */,
+				00A10A381E643D95009306D7 /* MusicListView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		00A10A331E643C63009306D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		00A10A341E643CA7009306D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				00A10A3F1E6461FB009306D7 /* Downloader.h */,
+				00A10A401E6461FB009306D7 /* Downloader.m */,
+				001575111E8F647B000AAA61 /* Helper.h */,
+				001575121E8F647B000AAA61 /* Helper.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4BF3A7FBB178589330401DEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC6DAC817FB111B8EF26F719 /* Pods-OnlineMusic.debug.xcconfig */,
+				8AEADD38A9C273B66C50FD89 /* Pods-OnlineMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1451768399B2206F1416003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001575141E8F67F4000AAA61 /* AVFoundation.framework */,
+				AFEDF3AFE524489301305767 /* libPods-OnlineMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A10A201E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusic" */;
 			buildPhases = (
+				1F6F69C84E7622963D981B4D /* [CP] Check Pods Manifest.lock */,
 				00A109EF1E6409AF009306D7 /* Sources */,
 				00A109F01E6409AF009306D7 /* Frameworks */,
 				00A109F11E6409AF009306D7 /* Resources */,
+				49FE420ED61DAFA8A30C11F8 /* [CP] Embed Pods Frameworks */,
+				77381E6806065D648C84EC73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +352,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A10A061E6409AF009306D7 /* LaunchScreen.storyboard in Resources */,
+				00A10A301E641004009306D7 /* Icon.png in Resources */,
+				00A10A391E643D95009306D7 /* MusicListView.xib in Resources */,
 				00A10A031E6409AF009306D7 /* Assets.xcassets in Resources */,
 				00A10A011E6409AF009306D7 /* Main.storyboard in Resources */,
+				00E7B94C1E66A08C002D5E39 /* Podfile in Resources */,
+				00A10A3E1E645396009306D7 /* MusicCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +377,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F6F69C84E7622963D981B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49FE420ED61DAFA8A30C11F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineMusic/Pods-OnlineMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77381E6806065D648C84EC73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineMusic/Pods-OnlineMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00A109EF1E6409AF009306D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,7 +432,13 @@
 			files = (
 				00A109FE1E6409AF009306D7 /* ViewController.m in Sources */,
 				00A109FB1E6409AF009306D7 /* AppDelegate.m in Sources */,
+				0039226F1E65327D00837F72 /* BaseModel.m in Sources */,
+				00A10A411E6461FB009306D7 /* Downloader.m in Sources */,
+				0039226C1E65321600837F72 /* MusicModel.m in Sources */,
+				00A10A371E643CF4009306D7 /* MusicListView.m in Sources */,
 				00A109F81E6409AF009306D7 /* main.m in Sources */,
+				001575131E8F647B000AAA61 /* Helper.m in Sources */,
+				00A10A3D1E645396009306D7 /* MusicCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +585,7 @@
 		};
 		00A10A211E6409AF009306D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6DAC817FB111B8EF26F719 /* Pods-OnlineMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OnlineMusic/Info.plist;
@@ -433,6 +597,7 @@
 		};
 		00A10A221E6409AF009306D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEADD38A9C273B66C50FD89 /* Pods-OnlineMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OnlineMusic/Info.plist;
@@ -507,6 +672,7 @@
 				00A10A221E6409AF009306D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A10A231E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +681,7 @@
 				00A10A251E6409AF009306D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A10A261E6409AF009306D7 /* Build configuration list for PBXNativeTarget "OnlineMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +690,7 @@
 				00A10A281E6409AF009306D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
